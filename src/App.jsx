@@ -1,7 +1,11 @@
+import Header from './components/Header.jsx'
+import { Main } from './components/Main.jsx'
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="max-w-[550px] mx-auto my-8 bg-gradient-to">
+     <Header/>
+     <Main/>
+    </div>
   )
 }
