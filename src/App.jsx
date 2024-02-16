@@ -6,6 +6,7 @@ import { Main } from './components/Main.jsx'
 import Profile from './components/Profile.jsx'
 
 import { useState } from 'react'
+import Square from './square/Square.jsx'
 
 
 export default function App() {
@@ -17,7 +18,8 @@ export default function App() {
      {/* <AddItems/> */}
      {/* <Profile/> */}
      {/* <Count/> */}
-     <Box/>
+     {/* <Box/> */}
+     <Square/>
     </div>
   )
 }
