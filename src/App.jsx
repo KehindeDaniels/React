@@ -9,6 +9,7 @@ import { useState } from "react";
 import Square from "./square/Square.jsx";
 import Forms from "./components/Forms.jsx";
 import LoginForm from "./components/LoginForm.jsx";
+import Circles from "./circles/Circles.jsx";
 
 export default function App() {
   const [userName, setUSerName] = useState("joe");
@@ -22,7 +23,8 @@ export default function App() {
       {/* <Box/> */}
       {/* <Square/> */}
       {/* <Forms /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <Circles />
     </div>
   );
 }
