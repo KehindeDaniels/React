@@ -10,6 +10,7 @@ import Square from "./square/Square.jsx";
 import Forms from "./components/Forms.jsx";
 import LoginForm from "./components/LoginForm.jsx";
 import Circles from "./circles/Circles.jsx";
+import Java from "./Javascript/Java.jsx";
 
 export default function App() {
   const [userName, setUSerName] = useState("joe");
@@ -24,7 +25,8 @@ export default function App() {
       {/* <Square/> */}
       {/* <Forms /> */}
       {/* <LoginForm /> */}
-      <Circles />
+      {/* <Circles /> */}
+      <Java />
     </div>
   );
 }
